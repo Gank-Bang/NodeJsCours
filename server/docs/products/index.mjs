@@ -3,9 +3,9 @@ import schema from "./model.mjs";
 
 export default {
     paths: {
-        // "products":{
-        //     ...getAll,
-        // },
+        "products":{
+            ...getAll,
+        },
     },
         schema: {
             ...schema,

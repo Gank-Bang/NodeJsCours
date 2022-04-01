@@ -1,0 +1,9 @@
+[
+    {
+        "name": "toto",
+        "password": "titi",
+        "creationDate": "2020-09-01",
+        "birthday": "la",
+        "adress": "13 rue le moulin de la galette"
+    }
+]

@@ -6,19 +6,31 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.mjs --ignore 'products.json'",
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "lint": "eslint *.mjs",
+    "lint:fix": "eslint --fix *.mjs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
     "@types/jest": "^27.4.1",
     "body-parser": "^1.19.1",
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "jest": "^27.5.1",
+    "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
+    "prettier": "^2.6.1",
     "swagger-ui-express": "^4.3.0"
   }
 }

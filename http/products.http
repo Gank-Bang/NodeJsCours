@@ -33,3 +33,13 @@ DELETE http://localhost:3000/products/cerises?quantity=30 HTTP/1.1
 ###
 # SUPPRIME UNE QUANTITE D'UN PRODUIT PAR SON NOM
 DELETE http://localhost:3000/products/cerises?quantity=3 HTTP/1.1
+
+
+###
+POST http://localhost:3001/auth HTTP/1.1
+content-type: application/json
+
+{
+    "name":"toto", 
+    "password":"titi"
+}
