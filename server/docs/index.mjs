@@ -1,3 +1,5 @@
+import products from "./products/index.mjs"
+
 export default {
     openapi: "3.0.1",
     info: {
@@ -19,16 +21,16 @@ servers: [
         url: "https://localhost:3000",
         description: "Local server",
     },
-]
+],
 
-// paths: {
-//     ...products.paths,
-// },
-// components: {
-//     schemas: {
-//         ...products.schema,
-//     },
-// },
+paths: {
+    ...products.paths,
+},
+components: {
+    schemas: {
+        ...products.schema,
+    },
+},
 
 };
 
