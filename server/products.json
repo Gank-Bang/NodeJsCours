@@ -1,18 +1,26 @@
 [
   {
-    "name": "pomme",
-    "quantity": 770
-  },
-  {
-    "name": "citron",
-    "quantity": 1320
-  },
-  {
-    "name": "kiwi",
-    "quantity": 440
-  },
-  {
     "name": "cerises",
     "quantity": 10
+  },
+  {
+    "name": "poire",
+    "quantity": 6
+  },
+  {
+    "name": "ananas",
+    "quantity": 15
+  },
+  {
+    "name": "mangue",
+    "quantity": 3
+  },
+  {
+    "name": "fruit du dragon",
+    "quantity": 2
+  },
+  {
+    "name": "pasteque",
+    "quantity": 5
   }
 ]
